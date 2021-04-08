@@ -99,7 +99,7 @@ class PrintDot(keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs):
         if epoch % 1000 == 0:
             print('')
-        print('.', end='')
+        print('=>', end='')
 
 
 EPOCHES = 500
